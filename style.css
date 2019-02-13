@@ -1,0 +1,110 @@
+
+body {
+  background-color: rgb(220, 220, 220);
+  color: rgb(40, 40, 40);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  color: orange;
+  letter-spacing: 4px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Montserrat', serif;
+}
+
+h2, h3 {
+  color: rgb(80, 80, 80);
+  font-size: 20px;
+  letter-spacing: 2
+  font-family: 'Montserrat', serif;
+}
+
+.midia-links {
+  background-color: rgb(255, 255, 255);
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  /*padding: 4px 20px;*/
+}
+
+.midia-links a {
+  text-decoration: none;
+}
+
+/*.midia-links li {
+  display: inline-block;
+}*/
+
+a:hover {
+  color: rgb(80, 80, 80);
+  text-decoration: underline;
+}
+
+#my-info {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  /*padding: 0 20px;*/
+}
+
+#logo-profile {
+  width: 400px;
+  border-radius: 50%;
+  margin: 10px 20px;
+
+}
+
+.cv-images  {
+  width: 200px
+
+}
+
+.section {
+  background-color: rgb(255, 255, 255);
+  width: 800px;
+  margin: 0 auto;
+  padding: 25px 0px;
+
+}
+
+.section img {
+  border: 2px solid black;
+
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.midia-in-line {
+  padding: 0 20px;
+  margin: 0 auto;
+  display: inline-block;
+  color: red;
+
+}
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
